@@ -8,10 +8,14 @@ public class MenuManager : MonoBehaviour
 {
     public List<GameObject> screens = new List<GameObject>(); // Switch between different screens with ease.
     public Animator fade;
+    
+    public Texture2D cursorTex;
+    private CursorMode cursorMode = CursorMode.Auto;
 
     private void Awake()
     {
         changeScreen(0);
+        Cursor.SetCursor(cursorTex, new Vector2(0,0), cursorMode);
     }
 
     public static void initiateGame()
