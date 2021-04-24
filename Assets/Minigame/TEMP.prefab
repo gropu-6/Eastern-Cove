@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4388505181576989309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4388505181576989283}
+  - component: {fileID: 4388505181576989308}
+  m_Layer: 0
+  m_Name: TEMP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4388505181576989283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4388505181576989309}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 545.0423, y: 139.0192, z: -29.597551}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4388505181576989308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4388505181576989309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d431edf60d2fe04084d10ddd761ad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 3083392493504080655, guid: aefc1b01e7adfef4488c85a40ef80fbc, type: 3}
+  _enemySprites:
+  - {fileID: 21300000, guid: 1e4aeb7873eb7f540a5ace351bbe649a, type: 3}
+  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  game_started: 0
+  game_won: 0
+  time_since: 0
+  player_speed:
+  - 2
+  - 0
+  - 0
+  organ_speed:
+  - 1
+  - 0
+  - 0
+  current_wave: 0
+  winning_texts:
+  - Good work! But don't get relaxed too easily. There's more.
+  - You're doing well, keep up the good work.
+  - It's about to get harder, don't get too comfortable.
+  - You got this.
+  - I can see potential in you.
+  failed_texts:
+  - You're almost there..
+  - How did you fail?
+  - Alright, next time then.
+  waveTexts:
+  - This is the second wave, get ready and press <SPACE>
+  - This is the final third wave, it'll be hard. <SPACE>
+  _key: 32
